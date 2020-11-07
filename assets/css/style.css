@@ -152,8 +152,9 @@ p {
     font-size: 20px;
 }
 
-/* I used media jqury for risponcivness of my headder web page */
-@media (max-width: 675px) {
+/* I used media queries and for Responsible of the web page
+https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_sidebar_responsive */
+@media screen and (max-width: 600px) {
     .header {
         flex-direction: column;
     }
@@ -163,7 +164,14 @@ p {
     nav li {
         margin-bottom: 5px;
     }
-    
+    .benefits {
+        position: absolute;
+        flex-direction: column;
+        width: 76%;
+        height: auto;
+        text-align: center;
+        margin-left: 20px;
+        margin-bottom: 20px;
+    }
 }
-
 
