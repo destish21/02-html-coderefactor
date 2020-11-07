@@ -73,7 +73,7 @@ a {
     background-color: #0072bb;
     color: #ffffff;
     overflow: auto;
-
+    letter-spacing: 1px;
 }
 
 /*  The three sections are styling in the some properities and values and shrotened in to the some */
@@ -114,7 +114,7 @@ p {
     height: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
-
+    letter-spacing: 1px;
 }
 
 /*  The three sections are styling in the some properties and values and shrotened in to the some */
@@ -152,7 +152,7 @@ p {
     font-size: 20px;
 }
 
-/* I used media queries and for Responsible of the web page
+/* I used media queries for Responsible of the web page
 https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_sidebar_responsive */
 @media screen and (max-width: 600px) {
     .header {
@@ -165,8 +165,8 @@ https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_sidebar_responsive
         margin-bottom: 5px;
     }
     .benefits {
-        position: absolute;
         flex-direction: column;
+        float: left;
         width: 76%;
         height: auto;
         text-align: center;
